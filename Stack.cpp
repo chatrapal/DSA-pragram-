@@ -37,14 +37,13 @@ int main(void)
 				printf("Wrong input\n");
 				break;
 		}
-		printf("\nPress to for continue:2\n");
+		printf("\nFor continue press:2\n");
 		scanf(" %d",&conti);
 	}
 }
 void PUSH(void)
 {
 	int n=0;
-	int again=0;
 	ptr=(stack*)malloc(sizeof(stack));
 	printf("Enter number\n");
 	scanf(" %d",&n);
